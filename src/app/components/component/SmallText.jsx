@@ -2,9 +2,9 @@
 
 import React from "react";
 
-const SmallText = ({ children, className = "" }) => {
+const SmallText = ({ children, className }) => {
   return (
-    <p className={`text-[12px] text-[#cfa788] montserrat-500 capitalize !${className}`}>
+    <p className={`min-w-fit text-[12px] text-[#cfa788] montserrat-500 uppercase !${className}`}>
       {children}
     </p>
   );

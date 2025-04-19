@@ -12,7 +12,7 @@ const Hero = () => {
             <Heading className="max-w-[800px]">
               Your Partner for Business Advisory.
             </Heading>
-            <p className="max-w-[600px] text-[22px] text-[#0D1C2999] satoshi-400">
+            <p className="max-w-[600px] text-[22px] text-[#0D1C29] satoshi-500">
               Partner with us to access expert services tailored to optimize
               your operations, mitigate risks, and achieve your business goals
               effectively.
@@ -24,7 +24,7 @@ const Hero = () => {
             <img
               src="/images/pages/home/hero/hero.avif"
               draggable={false}
-              className="select-none"
+              className="w-full select-none"
               alt=""
             />
             <img

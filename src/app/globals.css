@@ -1,4 +1,60 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@100;300;400;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.frank-ruhl {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 300;
+}
+
+.montserrat-100 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+.montserrat-300 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.montserrat-400 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.montserrat-500 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.montserrat-700 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Satoshi font classes */
+.satoshi-100 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 100;
+}
+.satoshi-300 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 300;
+}
+.satoshi-400 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+}
+.satoshi-700 {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 700;
+}
+
+
+/* @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@100,300,400,700&display=swap');
@@ -34,7 +90,7 @@
   font-weight: 700;
 }
 
-/* ✅ Satoshi font classes */
+
 .satoshi-100 {
   font-family: 'Satoshi', sans-serif;
   font-weight: 100;
@@ -50,4 +106,4 @@
 .satoshi-700 {
   font-family: 'Satoshi', sans-serif;
   font-weight: 700;
-}
+} */

@@ -1,6 +1,7 @@
 import React from "react";
 import SmallText from "../../component/SmallText";
 import Heading from "../../component/Heading";
+import AnimatedLink from "../../component/AnimatedLink";
 
 const About = () => {
   return (
@@ -15,14 +16,14 @@ const About = () => {
               </Heading>
             </div>
             <div className="max-w-[660px] flex flex-col gap-4">
-              <h2 className="text-[22px] text-[#0D1C29] satoshi-400">
+              <h2 className="text-[22px] text-[#0D1C29] satoshi-500">
                 At our firm, we are dedicated to providing innovative and
                 effective legal solutions tailored to meet the unique needs of
                 each client. With a team of experienced attorneys and legal
                 experts, we strive to deliver exceptional service and achieve
                 favorable outcomes for our clients.
               </h2>
-              <h2 className="text-[#0D1C2999] satoshi-400">
+              <h2 className="text-[#0D1C2999] satoshi-500">
                 Our approach is centered on collaboration, transparency, and
                 advocacy. We work closely with clients to understand their goals
                 and challenges, offering strategic guidance and personalized
@@ -74,12 +75,9 @@ const Card = ({
       />
       <div className="flex flex-col gap-2">
         <Heading className="!text-3xl">{title}</Heading>
-        <p className="text-[#0d1c2999] satoshi-400">{description}</p>
+        <p className="text-[#0d1c2999] satoshi-500">{description}</p>
       </div>
-      <div className="w-fit flex flex-col gap-0 cursor-pointer group">
-        <p className="text-xs montserrat-500 text-[#0D1c29]">{linkText}</p>
-        <div className="w-full h-[1px] bg-[#151515] group-hover:w-[20%] transition-all duration-400 ease-in-out"></div>
-      </div>
+      <AnimatedLink hoverWidth="20%">MORE INFORMATION</AnimatedLink>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Testimonial = () => {
             <img src="/images/pages/home/testimonial/icon.png" draggable={false} className="w-11 select-none" alt="" />
             <div className="flex flex-col gap-2">
                <Heading className="!text-5xl text-white">Exceptional legal service, exceeded expectations, highly recommend their expertise.</Heading>
-               <p className="text-xl text-[#ffffffb3] max-w-[605px] satoshi-400">Working with Jurri and their team was a game-changer for our business. Their exceptional legal service exceeded our expectations in every aspect. We highly recommend their expertise to anyone seeking top-notch legal representation.</p>
+               <p className="text-xl text-[#ffffffb3] max-w-[605px] satoshi-500">Working with Jurri and their team was a game-changer for our business. Their exceptional legal service exceeded our expectations in every aspect. We highly recommend their expertise to anyone seeking top-notch legal representation.</p>
             </div>
             <div className="flex flex-col gap-4">
                <div className="flex items-center gap-0.5">
@@ -33,7 +33,7 @@ const Testimonial = () => {
                   <div className="flex flex-col gap-2">
                      <h1 className="text-5xl frank-ruhl"></h1>
                      <Heading className="!text-5xl text-white">John Williams</Heading>
-                     <p className="text-[#ffffffb3] satoshi-400">CEO of a leading tech startup, transforming industries with innovative solutions.</p>
+                     <p className="text-[#ffffffb3] satoshi-500">CEO of a leading tech startup, transforming industries with innovative solutions.</p>
                   </div>
                </div>
             </div>

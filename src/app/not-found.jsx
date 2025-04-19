@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import Layout from './components/component/Layout';
 
 export default function NotFound() {
   return (
-    <>page not found</>
+    <Layout>page not found</Layout>
   );
 }

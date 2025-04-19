@@ -8,6 +8,7 @@ import logo from "../../../../public/images/component/navbar/Logo.png";
 import Phone from "../../../../public/images/component/navbar/Phone.svg";
 import Email from "../../../../public/images/component/navbar/Mail.svg";
 import Arrow from "../../../../public/images/component/navbar/Arrowdown.svg";
+import Button from "./Button";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -49,10 +50,10 @@ const Navbar = () => {
             {navItems.map((item) => (
               <li key={item.href}>
                 {item.hasDropdown ? (
-                  <div className="flex items-center gap-0.5 cursor-pointer montserrat-400">
+                  <div className="flex items-center gap-0.5 cursor-pointer montserrat-500">
                     <span
                       className={
-                        isActive(item.href) ? "text-[#132030] font-medium" : ""
+                        isActive(item.href) ? "text-[#132030] font-medium montserrat-500" : ""
                       }
                     >
                       {item.label}
@@ -68,7 +69,7 @@ const Navbar = () => {
                 ) : (
                   <Link
                     href={item.href}
-                    className={`montserrat-400 hover:text-[#132030] ${
+                    className={`montserrat-500 hover:text-[#132030] ${
                       isActive(item.href) ? "text-[#132030] font-medium" : ""
                     }`}
                   >
@@ -77,7 +78,7 @@ const Navbar = () => {
                 )}
               </li>
             ))}
-            <li className="flex items-center gap-0.5 text-[#132030] cursor-pointer montserrat-400">
+            <li className="flex items-center gap-0.5 text-[#132030] cursor-pointer montserrat-500">
               <span>PAGES</span>
               <Image
                 src={Arrow}
@@ -89,18 +90,7 @@ const Navbar = () => {
             </li>
           </ul>
           <Link href="/contact">
-            <button
-              className="group relative w-[120px] h-10 flex items-center justify-center px-6 py-3 text-[12px] text-white leading-none bg-[#132030] rounded-full overflow-hidden cursor-pointer"
-            >
-              <div className="w-full h-full flex items-center justify-center overflow-hidden relative">
-                <span className="absolute left-0 top-0.5 transition-all duration-500 ease-in-out group-hover:-top-4">
-                  CONTACT US
-                </span>
-                <span className="absolute left-0 top-4 transition-all duration-500 ease-in-out group-hover:top-0.5">
-                  CONTACT US
-                </span>
-              </div>
-            </button>
+            <Button type="primary" className="px-6 py-3 min-w-[130px]">CONTACT US</Button>
           </Link>
         </div>
       </nav>
