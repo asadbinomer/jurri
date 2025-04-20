@@ -8,7 +8,8 @@ import CaseStudyCard from "../../component/CaseStudyCard";
 const CaseStudies = () => {
   return (
     <>
-      <div className="w-full pt-24 flex flex-col gap-12">
+      CaseStudies
+      {/* <div className="w-full pt-24 flex flex-col gap-12">
         <div className="flex flex-col items-center text-center gap-4">
           <SmallText>Case Studies</SmallText>
           <Heading className="!text-[64px]">Client Success Stories</Heading>
@@ -31,7 +32,7 @@ const CaseStudies = () => {
             className="flex-row-reverse"
           />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
